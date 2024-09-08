@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Organizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="bodd">
+    <div id="ggg">
+    <button id="profileBtn">Profile</button>
+    <button id="ShopBtn" onclick="Shop()"> Shop </button>
+  <div class="container">
+    <header>
+      <h1>Work Organizer</h1>
+      <div id="userStats">
+        <p><strong>Coins:</strong> <span id="coins">0</span></p>
+        <p><strong>Total Time Spent:</strong> <span id="timeSpent">0</span> min</p>
+      </div>
+    </header>
+
+    <section id="loginSection">
+      <h2>Login</h2>
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+      <button id="loginBtn">Login</button>
+    </section>
+
+    <section id="taskSection" style="display:none;">
+      <h2>Tasks</h2>
+      <input type="text" id="taskInput" placeholder="New Task">
+      <button id="addTaskBtn">Add Task</button>
+
+      <ul id="taskList"></ul>
+      <p id="currentTask">No active task</p>
+
+      <div>
+        <button id="startTimerBtn">Start Timer</button>
+        <button id="stopTimerBtn" disabled>Stop Timer</button>
+        <p><strong>Time Spent on Task:</strong> <span id="taskTime">0</span> min</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
+  <br>
+  <br>
+  <button id="kkkk" onclick="M()"> End of Day Survey </button>
+
+  </div>
+  <div id="hhh">
+    <button onclick="Back()"> Back</button>
+  <h1 id="ll"> 645 Profile</h1>
+  <div id="taskstats">
+  <h3 id="hh"> Task statistics</h3>
+  <p id="taskstatts"> </p>
+  </div>
+</div>
+ <div id="kk">
+<p> Leftover Today Number </p>    
+<input type="number" id="k1">
+<br>
+
+<p> NT percentage </p>    
+<input type="number" id="k2">
+<br>
+<p> CP percentage </p>    
+<input type="number" id="k3">
+<br>
+<p> Alg Percentage </p>    
+<input type="number" id="k4">
+<br>
+<p> Geo Percentage </p>    
+<input type="number" id="k5">
+<br>
+<p> Prep Prob Percentage </p>    
+<input type="number" id="k6">
+<br>
+<p> Play Time Minutes Spent Today </p>    
+<input type="number" id="k7">
+<br>
+<p> Work Time Minutes Today </p>    
+<input type="number" id="k8">
+<br>
+<button onclick="N()"> Submit </button>
+</div>
+<div id="Shop"> 
+
+    <h1> Shop </h1>
+    <h3 id="shopcoins">🪙 </h3> 
+
+<img src="OIP.jpeg" id="imim"> 
+<p id="ne"> Coins Willing To Spend:</p> <input type="number" id="coinsspend" placeholder="Coins willing to spend" onchange="Among()">
+<p> That will earn you  </p>
+<p id="playtime">0 </p>
+<p> minutes of playtime</p>
+<br>
+<br>
+<button onclick="Buy()"> Checkout </button>
+<br>
+<br>
+<button onclick="Back()" id="Backk"> Back</button>
+
+</div>
+<button id="light" onclick="light()"> Activate Light Mode </button>
+<button id="dark" onclick="dark()"> Activate Dark Mode </button>
+</body>
+</html>

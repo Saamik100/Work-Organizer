@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    color: red;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  #userStats p {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #loginSection, #taskSection {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #kkkk {
+    margin-left: 600px;
+  }
+  #kk{ 
+    text-align: center;
+    display: none;
+  }
+  #taskstats{
+    margin-right: 400px;
+    height: 500px;
+    width: 500px;
+outline-color: red;
+outline-style: dotted;
+outline-width: 0.25cm;
+}
+#hhh{
+    margin-left: 450px;
+    text-align: center;
+    display: none;
+}
+#ll{
+    margin-right: 420px;
+}
+#imim{
+    margin-top: 100px;
+    outline-style: dashed;
+    width: 100px;
+    outline-width: 2px;
+}
+#Shop{
+    text-align: center;
+    display: none;
+}
+#shopcoins{
+    margin-right: 1300px;
+    margin-top: -50px;
+}
+#coinsspend{
+    background-color: black;
+    margin-left: 200px;
+    color: red;
+    width: 170px;
+}
+#ne{
+    margin-bottom: -33px;
+    margin-left: -170px;
+}
+
+#dark{
+display: none;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
